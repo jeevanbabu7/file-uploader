@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.main {
+  background: url('./bg1.jpg') no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.main-container {
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 20rem;
+  height: 25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  padding: 2rem;
+  border-radius: 1rem;
+  
+}
+
+
+.uploaded-img {
+  height: 10rem;
+  width: 20rem;
+}
+
+.dropzone {
+
+  border: 1.5px solid transparent; /* Set border to transparent */
+  border-radius: 8px; /* Optional: Round the corners */
+  background: 
+    linear-gradient(aliceblue, aliceblue), /* Base color of the element */
+    repeating-linear-gradient(
+      to right,
+      #2F80ED 0, /* Color of the dashes */
+      #2F80ED 10px, /* Length of the dash */
+      transparent 10px, /* Start of the gap */
+      transparent 20px /* Length of the gap */
+    );
+  background-origin: border-box; /* Position gradient based on border */
+  background-clip: content-box, border-box; 
+  width: 20rem;
+  height: 15rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  justify-content: center;
+
+  
+}
+
+.dropzone > p {
+  color: rgb(140, 140, 140);
+  text-wrap: wrap;
+  
+  
+}
+
+.uploaded-img-container {
+  display: flex;
+  gap: 1rem;
+  overflow: auto;
+  width: 25rem;
+  padding: 3rem;
+  background-color: white;
+}
+
+.image {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.url-field {
+  width: 23rem;
+  background-color: aliceblue;
+  height: 3rem;
+  display: flex;
+  flex-direction: column;
+  padding: .3rem;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+.url-field > input {
+  height: 2rem;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  width: 98%;
+}
+
+.progress-bar {
+  width: 25rem;
+  height: 1.4rem;
+  background-color: rgb(187, 187, 187);
+  border-radius: 1rem;
+  padding: .2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.progress-bar__inner {
+  width: 0%;
+  height: 100%;
+  background-color: #2F80ED;
+  border-radius: 1rem;
+  transition: width 0.5s ease;
+
+  
+}
+
+.progress-bar__inner__text {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: black;
+
+}
+
+.app-name {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  font-size: x-large;
+  font-weight: 700;
+  color: aliceblue;
+}
+
+.progress-container {
+  width: 25rem;
+  height: 10rem;
+  padding: 1rem;
+  background-color: aliceblue;
+}
+@media only screen and (max-width: 600px) {
+  .main-container {
+    width: 15rem;
+  }
+}
