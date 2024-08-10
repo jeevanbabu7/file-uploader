@@ -6,7 +6,7 @@
 
 
 .main {
-  background: url('./bg1.jpg') no-repeat center center;
+  background: url('../../public/bg1.jpg') no-repeat center center;
   background-size: cover;
   width: 100%;
   height: 100vh;
