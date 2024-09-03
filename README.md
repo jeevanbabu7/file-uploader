@@ -21,15 +21,17 @@ A simple and efficient file uploader application built with TypeScript, React, T
 
    git clone [https://github.com/jeevanbabu7/file-uploader.git](https://github.com/jeevanbabu7/file-uploader.git)
    cd file-uploader
-2. Install dependencies:
+   
+3. Install dependencies:
    
    npm install
-3. Set up Firebase:
+4. Set up Firebase:
 
-  Create a Firebase project in the Firebase Console.
-  Enable Firebase Storage.
-  Copy the Firebase config object from your Firebase project settings and paste it in firebase.js
-4. Start the development server:
+     Create a Firebase project in the Firebase Console.
+     Enable Firebase Storage.
+     Copy the Firebase config object from your Firebase project settings and paste it in firebase.js
+   
+5. Start the development server:
   npm start
   The app will be available at http://localhost:3000.
 
