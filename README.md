@@ -19,7 +19,7 @@ A simple and efficient file uploader application built with TypeScript, React, T
 
 1. Clone the repository:
 
-   git clone https://github.com/yourusername/file-uploader.git
+   git clone [https://github.com/yourusername/file-uploader.git](https://github.com/jeevanbabu7/file-uploader.git)
    cd file-uploader
 2. Install dependencies:
    
