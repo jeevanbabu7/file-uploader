@@ -6,15 +6,14 @@ A simple and efficient file uploader application built with TypeScript, React, T
 
 - **File Upload:** Users can upload any file type.
 - **Sharable Link:** After uploading, a unique URL is generated for each file, allowing easy sharing.
-- **Responsive Design:** Built with Tailwind CSS to ensure the application looks great on all devices.
 - **Firebase Storage:** Files are securely stored using Firebase, ensuring scalability and reliability.
 
 ## Tech Stack
 
-- **TypeScript:** Provides static typing, which helps in catching errors early during development.
-- **React:** A powerful JavaScript library for building user interfaces.
-- **Tailwind CSS:** A utility-first CSS framework for rapid UI development.
-- **Firebase:** Used for file storage, authentication, and real-time database functionality.
+- **TypeScript**
+- **React** 
+- **Tailwind CSS**
+- **Firebase**
 
 ## Installation
 
